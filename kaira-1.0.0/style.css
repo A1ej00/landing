@@ -23,6 +23,12 @@ CSS STRUCTURE:
 
 --------------------------------------------------------------*/
 body {
+  background-image: url('images/pattern-circles-brown.png');
+  background-size: cover; /* Ensures the image covers the element */
+  background-position: center; /* Centers the image */
+  width: 100%; /* Adjust width as needed */
+  height: 10vh; /* Adjust height as needed */
+
   --heading-font: "Marcellus", Roboto, sans-serif;
   --heading-font-weight: 400;
   --heading-color: #111;
@@ -63,6 +69,34 @@ body {
   letter-spacing: 0.03rem;
 }
 
+nav{
+  background-image: url('images/pattern-runes-green.png');
+  background-size: cover; /* Ensures the image covers the element */
+  background-position: center; /* Centers the image */
+  width: 100%; /* Adjust width as needed */
+  height: 20vh; /* Adjust height as needed */
+}
+
+#characters {
+  background-color: #FAF7D6;
+}
+
+#cont {
+  background-color: #FAF7D6;
+}
+
+#news {
+  background-color: #FAF7D6;
+}
+
+#footer{
+  background-image: url('images/pattern-runes-green.png');
+  background-size: cover; /* Ensures the image covers the element */
+  background-position: center; /* Centers the image */
+  width: 100%; /* Adjust width as needed */
+  height: 75vh; /* Adjust height as needed */
+}
+
 h1,
 .h1,
 h2,
@@ -75,10 +109,15 @@ h5,
 .h5,
 h6,
 .h6 {
-  font-family: var(--heading-font);
+  font-family: "Averia Libre", system-ui;
   font-weight: var(--heading-font-weight);
-  color: var(--heading-color);
+  color: #FAF7D6;
   line-height: var(--heading-line-height);
+}
+
+p{
+  font-family: "Averia Libre", system-ui;
+  color: #FAF7D6;
 }
 
 h1.light,
